@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp Nude</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city..."
+                autofocus="on"
+                autocomplete="off"
+                id="search-city-input"
+                class="search-city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="search-button"
+                id="search-button"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="button"
+                value="Current"
+                class="current-button"
+                id="current-button"
+              />
+            </div>
+          </div>
+        </form>
+        <h1 id="city-display">Stockholm, SE</h1>
+        <ul>
+          <li>Last updated: <span id="date-time"></span></li>
+          <li id="description"></li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img src="" id="icon" class="icon" alt="weather-icon" />
+            <span class="temperature" id="temperature"></span>
+            <span class="units">
+              <a href="#" id="celsius-link" class="temp-link active">°C</a> |
+              <a href="#" id="fahrenheit-link" class="temp-link">°F</a>
+            </span>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity">70</span>%</li>
+              <li>Wind: <span id="humidity">4</span> km/h</li>
+            </ul>
+          </div>
+          <div class="weather-forecast" id="forecast"></div>
+        </div>
+      </div>
+      <small class="source-link">
+        <a
+          href="https://github.com/veronicarodrigues/weather-app-nude"
+          target="_blank"
+          class="github-link"
+          >Open-source code</a
+        >
+        by Verónica Rodrigues
+      </small>
+    </div>
+  </body>
+</html>

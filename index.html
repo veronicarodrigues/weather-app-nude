@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>WeatherApp Nude</title>
   </head>
   <body>
@@ -52,9 +53,9 @@
             </div>
           </div>
         </form>
-        <h1 id="city-display">Stockholm, SE</h1>
+        <h1 id="city-display"></h1>
         <ul>
-          <li>Last updated: Saturday 14:22<span id="date-time"></span></li>
+          <li>Last updated: <span id="date-time"></span></li>
           <li id="description"></li>
         </ul>
         <div class="row">
@@ -73,8 +74,8 @@
           </div>
           <div class="col-6">
             <ul>
-              <li>Humidity: <span id="humidity">70</span>%</li>
-              <li>Wind: <span id="humidity">4</span> km/h</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
           <div class="weather-forecast" id="forecast"></div>
@@ -93,5 +94,6 @@
         by Verónica Rodrigues
       </small>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>

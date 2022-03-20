@@ -1,0 +1,106 @@
+body {
+  font-family: "Arimo", sans-serif;
+  background: #faf6e9;
+}
+h1 {
+  color: #494949;
+  font-size: 24px;
+  font-weight: 150;
+  line-height: 28px;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0 0 10px;
+}
+li {
+  color: #494949;
+  font-size: 16px;
+  font-weight: 150;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.weather-app {
+  border: 1px solid #fffdf6;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  background: #ece8d9;
+}
+.temperature {
+  color: #494949;
+  font-size: 48px;
+  font-weight: 400px;
+  line-height: 60px;
+}
+.temp-link {
+  text-decoration: none;
+  color: rgb(73, 73, 73, 0.8);
+}
+.temp-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(73, 73, 73, 1);
+}
+.active {
+  cursor: default;
+  font-weight: bold;
+  color: rgb(73, 73, 73, 1);
+}
+.active:hover {
+  text-decoration: none;
+}
+.icon {
+  height: 64px;
+  width: 64px;
+  vertical-align: top;
+}
+.units {
+  position: relative;
+  top: -25px;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-button {
+  background-color: #494949;
+  color: #fff;
+  box-shadow: rgb(37, 39, 89 / 8%) 0px 8px 8px 0;
+  transition: all 200ms ease-in-out;
+  border-color: #f6f6f6;
+}
+.search-button:hover {
+  background-color: #353131;
+}
+.current-button {
+  background-color: #7c6565;
+  color: #fff;
+  box-shadow: rgb(37, 39, 89 / 8%) 0px 8px 8px 0;
+  transition: all 200ms ease-in-out;
+  border-color: #f6f6f6;
+}
+.current-button:hover {
+  background-color: #6b5454;
+}
+.type {
+  border-color: #1e56a0;
+}
+.source-link {
+  color: #494949;
+  padding: 15px;
+  margin: 20px auto;
+  margin-left: 250px;
+}
+.github-link {
+  color: #7c6565;
+}
+.github-link:hover {
+  font-weight: bolder;
+  color: #7c6565;
+}
